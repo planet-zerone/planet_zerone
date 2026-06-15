@@ -1644,7 +1644,10 @@ ul { list-style: none; }
     html { font-size: 55%; }
     .hero-brand .letter { font-size: 7rem; }
     .navbar ul { gap: 20px; }
-    .earth-doodle { width: 350px; height: 350px; opacity: 0.4; }
+    .earth-doodle { width: 420px; height: 420px; opacity: 0.4; }
+    .counter-number { font-size: 3.8rem; }
+    .portfolio-img { height: 220px; }
+    .team-img { height: 240px; }
 }
 
 @media (max-width: 768px) {
@@ -1666,32 +1669,215 @@ ul { list-style: none; }
 
     .hero-brand .letter { font-size: 5rem; }
     .hero-brand .letter-divider { width: 8px; height: 8px; margin: 0 10px; }
-    .hero-tagline { font-size: 1.6rem; }
-    .section-header h2 { font-size: 3rem; }
-    .about-content h2 { font-size: 2.8rem; }
-    .about-features { grid-template-columns: 1fr; }
-    .cta-content h2 { font-size: 2.5rem; }
-    .footer-top .row > div { margin-bottom: 30px; }
-}
+    .earth-doodle { width: 340px; height: 340px; opacity: 0.3; }
+    .earth-doodle .hero-tagline { top: calc(50% + 42px); }
+    .hero-tagline { font-size: 1.6rem; max-width: 100%; padding: 0 20px; }
 
-@media (max-width: 768px) {
-    .hero-brand .letter { font-size: 5rem; }
-    .hero-brand .letter-divider { width: 8px; height: 8px; margin: 0 10px; }
-    .earth-doodle .hero-tagline { top: calc(50% + 48px); }
-    .hero-tagline { font-size: 1.6rem; }
-    .earth-doodle { width: 280px; height: 280px; opacity: 0.3; }
+    .section-header h2 { font-size: 2.8rem; }
+    .section-header p { font-size: 1.4rem; max-width: 100%; padding: 0 10px; }
+
+    .about-content h2 { font-size: 2.6rem; }
+    .about-features { grid-template-columns: 1fr; }
+
+    .counter-number { font-size: 3.5rem; }
+    .counter-item i { font-size: 3rem; width: 60px; height: 60px; line-height: 60px; }
+
+    .portfolio-img { height: 200px; }
+    .team-img { height: 220px; }
+
+    .service-card { padding: 25px 20px; }
+
+    .testimonial-card { padding: 25px 20px; margin: 8px; }
+
+    .cta-content h2 { font-size: 2.2rem; }
+
+    .contact-info-item { gap: 12px; }
+    .contact-info-item i { width: 45px; height: 45px; font-size: 1.6rem; }
+
+    .accordion-header { padding: 15px 18px; }
+    .accordion-body { padding: 0 18px 15px 56px; }
+
+    .footer-top .row > div { margin-bottom: 25px; }
+    .doodle-1, .doodle-2, .doodle-3, .doodle-4, .doodle-5 { opacity: 0.06; }
 }
 
 @media (max-width: 576px) {
     html { font-size: 50%; }
+
     .hero-brand .letter { font-size: 3.6rem; }
     .hero-brand .letter-divider { width: 6px; height: 6px; margin: 0 6px; }
-    .earth-doodle .hero-tagline { top: calc(50% + 36px); font-size: 1.4rem; }
-    .hero-tagline { font-size: 1.5rem; }
-    .earth-doodle { width: 200px; height: 200px; opacity: 0.2; }
-    .hero-btns { flex-direction: column; align-items: center; }
+    .earth-doodle { width: 280px; height: 280px; opacity: 0.2; }
+    .earth-doodle .hero-tagline { top: calc(50% + 32px); font-size: 1.3rem; white-space: normal; max-width: 240px; line-height: 1.4; }
+    .hero-tagline { font-size: 1.5rem; padding: 0 15px; margin-bottom: 25px; }
+    .hero-btns { flex-direction: column; align-items: stretch; gap: 12px; padding: 0 20px; }
+    .hero-btns .btn-primary,
+    .hero-btns .btn-outline { width: 100%; justify-content: center; }
+    .hero-scroll { bottom: 12px; }
+    .hero-scroll span { font-size: 1rem; }
+    .scroll-arrow { width: 20px; height: 32px; }
+
     .section-padding { padding: 25px 0; }
     .section-header { margin-bottom: 18px; }
     .section-header h2 { font-size: 2.4rem; }
-    .counter-number { font-size: 3rem; }
+    .section-header p { font-size: 1.35rem; padding: 0 12px; }
+
+    .about-content h2 { font-size: 2.2rem; }
+    .about-content > p { font-size: 1.4rem; }
+    .about-feature { font-size: 1.35rem; gap: 10px; }
+    .about-img-main { padding: 20px; }
+    .about-features { gap: 8px; }
+
+    .robot-doodle { width: 120px; }
+    .robot-wrapper { min-height: 180px; }
+
+    .counter-number { font-size: 2.8rem; margin-bottom: 2px; }
+    .counter-number::after { font-size: 1.8rem; }
+    .counter-item p { font-size: 1.3rem; }
+    .counter-item i { font-size: 2.5rem; width: 50px; height: 50px; line-height: 50px; margin-bottom: 12px; }
+
+    .service-card { padding: 20px 16px; }
+    .service-icon { width: 60px; height: 60px; font-size: 2.6rem; margin-bottom: 18px; }
+    .service-card h3 { font-size: 1.7rem; margin-bottom: 10px; }
+    .service-card p { font-size: 1.3rem; margin-bottom: 14px; }
+    .service-link { font-size: 1.3rem; }
+
+    .portfolio-img { height: 180px; }
+    .portfolio-info { padding: 14px 16px; }
+    .portfolio-info h3 { font-size: 1.6rem; margin-bottom: 6px; }
+    .portfolio-info p { font-size: 1.3rem; }
+    .portfolio-link { width: 42px; height: 42px; font-size: 1.6rem; }
+
+    .team-img { height: 200px; }
+    .team-info { padding: 14px 16px; }
+    .team-info h3 { font-size: 1.6rem; }
+    .team-info span { font-size: 1.3rem; }
+    .team-social { padding: 12px; gap: 6px; }
+    .team-social a { width: 32px; height: 32px; font-size: 1.3rem; }
+
+    .testimonial-card { padding: 20px 18px; margin: 5px; }
+    .testimonial-card > p { font-size: 1.4rem; margin-bottom: 18px; }
+    .testimonial-stars { margin-bottom: 14px; }
+    .testimonial-stars i { font-size: 1.2rem; }
+    .testimonial-author img { width: 48px; height: 48px; }
+    .testimonial-author h4 { font-size: 1.4rem; }
+    .testimonial-author span { font-size: 1.2rem; }
+    .testimonial-card .quote-icon { font-size: 3rem; top: 10px; right: 14px; }
+
+    .cta-content h2 { font-size: 2rem; }
+    .cta-content p { font-size: 1.4rem; }
+    .cta-content .btn-primary { padding: 12px 28px; font-size: 1.4rem; }
+
+    .contact-info { padding: 10px 0; }
+    .contact-info-item { gap: 10px; margin-bottom: 14px; }
+    .contact-info-item i { width: 40px; height: 40px; font-size: 1.4rem; }
+    .contact-info-item h4 { font-size: 1.4rem; }
+    .contact-info-item p { font-size: 1.3rem; }
+    .contact-form .form-group { margin-bottom: 14px; }
+    .contact-form input,
+    .contact-form textarea { padding: 12px 16px; font-size: 1.4rem; }
+    .contact-form textarea { height: 110px; }
+
+    .accordion-header { padding: 12px 14px; gap: 10px; }
+    .accordion-header h3 { font-size: 1.4rem; }
+    .accordion-icon { width: 28px; height: 28px; font-size: 1.5rem; }
+    .accordion-body { padding: 0 14px 14px 44px; font-size: 1.35rem; }
+
+    .footer-top { padding: 30px 0 10px; }
+    .footer-about img { height: 32px; margin-bottom: 14px; }
+    .footer-about p { font-size: 1.3rem; margin-bottom: 16px; }
+    .footer-links h4 { font-size: 1.4rem; margin-bottom: 16px; padding-bottom: 8px; }
+    .footer-links ul li { margin-bottom: 8px; }
+    .footer-links ul li a { font-size: 1.3rem; }
+    .footer-newsletter p { font-size: 1.3rem; }
+    .footer-newsletter input { font-size: 1.3rem; padding: 10px 14px; }
+    .footer-newsletter button { padding: 10px 16px; }
+    .footer-bottom { padding: 18px 0; }
+    .footer-bottom p { font-size: 1.3rem; }
+
+    .owl-dots { margin-top: 18px; }
+    .owl-dot { width: 10px; height: 10px; margin: 0 4px; }
+
+    .back-to-top { width: 40px; height: 40px; font-size: 1.5rem; right: 15px; bottom: 15px; }
+}
+
+@media (max-width: 400px) {
+    html { font-size: 45%; }
+
+    .hero-brand .letter { font-size: 3rem; }
+    .hero-brand .letter-divider { width: 5px; height: 5px; margin: 0 4px; }
+    .earth-doodle { width: 230px; height: 230px; opacity: 0.15; }
+    .earth-doodle .hero-tagline { top: calc(50% + 26px); font-size: 1.1rem; max-width: 180px; }
+    .hero-tagline { font-size: 1.35rem; padding: 0 10px; }
+    .hero-btns { padding: 0 12px; }
+    .hero-btns .btn-primary,
+    .hero-btns .btn-outline { font-size: 1.3rem; padding: 12px 20px; }
+
+    .section-header h2 { font-size: 2rem; }
+    .section-header p { font-size: 1.25rem; }
+
+    .about-content h2 { font-size: 1.9rem; }
+
+    .counter-number { font-size: 2.4rem; }
+    .counter-item p { font-size: 1.2rem; }
+
+    .robot-doodle { width: 100px; }
+    .robot-wrapper { min-height: 150px; }
+
+    .portfolio-img { height: 160px; }
+    .team-img { height: 180px; }
+
+    .service-card h3 { font-size: 1.5rem; }
+    .portfolio-info h3 { font-size: 1.5rem; }
+    .team-info h3 { font-size: 1.5rem; }
+
+    .footer-top .row > div { margin-bottom: 20px; }
+}
+
+/* Touch device overrides — disable hover 3D tilt effects that need mouse */
+@media (hover: none) and (pointer: coarse) {
+    .service-card:hover,
+    .portfolio-card:hover,
+    .team-card:hover,
+    .testimonial-card:hover,
+    .btn-primary:hover,
+    .btn-outline:hover {
+        transform: none !important;
+        box-shadow: var(--shadow) !important;
+    }
+    .service-card:hover::before,
+    .service-card:hover::after,
+    .portfolio-card:hover .portfolio-img img,
+    .portfolio-card:hover .portfolio-img::after,
+    .portfolio-card:hover .portfolio-overlay,
+    .team-card:hover .team-img img,
+    .team-card:hover .team-img::after,
+    .team-card:hover .team-social {
+        transform: none !important;
+        opacity: 0 !important;
+    }
+    .service-card:hover .service-icon {
+        border-radius: 20px !important;
+        transform: none !important;
+        background: rgba(0,191,255,0.08) !important;
+        color: var(--primary) !important;
+    }
+    .service-card:hover .service-icon::after {
+        animation: iconPulse 2s ease-in-out infinite !important;
+        border-color: rgba(0,191,255,0.1) !important;
+    }
+    .service-card:hover h3 { color: var(--secondary) !important; }
+    .hero-brand .letter { animation: none; }
+    .hero-brand .letter:nth-child(-n+10),
+    .hero-brand .letter:nth-child(n+12) {
+        background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 50%, #fff 100%) !important;
+        -webkit-background-clip: text !important;
+        background-clip: text !important;
+    }
+    .counter-item:hover i { transform: none !important; }
+    .portfolio-link { transform: none !important; opacity: 1 !important; }
+    .portfolio-overlay { opacity: 1 !important; clip-path: circle(100% at 50% 50%) !important; }
+    .team-social { transform: translateY(0) !important; }
+    .team-social a { transform: translateY(0) !important; opacity: 1 !important; }
+    .benefit:hover { transform: none !important; }
+    .btn-primary::after, .btn-outline::after { display: none !important; }
 }
